@@ -1,60 +1,63 @@
+Heart_Disease_Analysis
+I. Clustering and Classification Analysis on the Heart Disease Dataset
+1. Dataset
+Dataset: HeartAttack UCI
+Description: This dataset contains various attributes related to heart disease. The goal is to predict the presence or absence of heart disease.
+2. Classification Tasks
+a. Data Preparation
+Use the heart disease dataset with a target variable indicating the presence or absence of heart disease.
+Perform necessary data preprocessing, handle missing values, encode categorical variables, etc.
+b. Classification Algorithms
+b.1. Decision Tree:
 
-# Les_Maladies_Cardiaques
-# I. Analyse de Clustering et de Classification sur le Jeu de Données des Maladies Cardiaques
-# 1.Jeu de Données:
- • JeudeDonnées:HeartAttack UCI
- • Description : Ce jeu de données comprend divers attributs liés aux maladies
- cardiaques. L’objectif est de prédire la présence ou l’absence de maladies cardiaques.
- 2.Tâches de Classification :
- a. Préparation des Données:
- • Utiliser le jeu de données des maladies cardiaques avec la variable cible indiquant
- la présence ou l’absence de maladies cardiaques.
- • Effectuer le prétraitement nécessaire des données, traiter les valeurs manquantes,encoder
- les variables catégorielles, etc.
- b. Algorithmes de Classification :
- b.1 . Arbre de Décision :
- • Implémenter unclassifieur d’arbre de décision.
- • Visualiser l’arbre de décision généré.
- • Évaluer le classifieur en utilisant des métriques (précision, rappel, etc.).
- b.2 .Forêt Aléatoire :
- • Implémenter unclassifieur de forêt aléatoire.
- • Visualiser l’importance des caractéristiques.
- • Ajuster les hyperparamètres si nécessaire.
- • Évaluer le classifieur.
- b.3 .AdaBoost :
- • Implémenter unclassifieur AdaBoost.
- • Visualiser l’importance des classificateurs faibles.
- • Évaluer le classifieur.
- b.4 .Machine à Vecteurs de Support (SVM):
- • Implémenter unclassifieur SVM.
-• Visualiser la séparation des classes dans l’espace des caractéristiques.
- • Ajuster les hyperparamètres si nécessaire.
- • Évaluer le classifieur.
- b.5 .K-Nearest Neighbors (KNN) :
- • Implémenter unclassifieur KNN.
- • Visualiser les régions de décision.
- • Ajuster les hyperparamètres si nécessaire.
- • Évaluer le classifieur.
- b.6 .Naive Bayes :
- • Implémenter unclassifieur Naive Bayes.
- • Visualiser les probabilités a priori et postérieures.
- • Évaluer le classifieur.
- 3.Tâches de Clustering :
- a. ChargementdesDonnéesetVisualisation :
- • Chargerle jeu de données sur les maladies cardiaques.
- • Visualiser le jeu de données dans une grille 2D avec des points en utilisant des
- caractéristiques pertinentes.
- b. Algorithmes de Clustering :
- b.1 .k-Means Clustering :
- • Appliquer k-Means avec un nombre prédéfini de clusters
- • Visualiser les résultats du clustering.
- • Explorer les métriques (silhouette score, etc.) pour évaluer la qualité du clustering.
- • Itérer pour trouver le nombre optimal de clusters en utilisant les métriques d’évaluation.
- Mesurer le temps de calcul.
- • Expliquer les limites de K-means avec un exemple de jeu de données
- b.2 .Clustering Hiérarchique Agglomératif :
-Appliquer le clustering hiérarchique agglomératif avec un nombre prédéfini de clusters.
-Visualiser les dendrogrammes et les résultats du clustering.
-Utiliser les métriques d’évaluation pour analyser la qualité du clustering.- Itérer pour
- trouver le nombre optimal de clusters. Mesurer le temps de calcul.- Expliquer les limites du
- clustering agglomératif avec un exemple de jeu de donnée
+Implement a Decision Tree classifier.
+Visualize the generated decision tree.
+Evaluate the classifier using metrics (accuracy, recall, etc.).
+b.2. Random Forest:
+
+Implement a Random Forest classifier.
+Visualize feature importance.
+Tune hyperparameters if necessary.
+Evaluate the classifier.
+b.3. AdaBoost:
+
+Implement an AdaBoost classifier.
+Visualize the importance of weak classifiers.
+Evaluate the classifier.
+b.4. Support Vector Machine (SVM):
+
+Implement an SVM classifier.
+Visualize class separation in feature space.
+Tune hyperparameters if necessary.
+Evaluate the classifier.
+b.5. K-Nearest Neighbors (KNN):
+
+Implement a KNN classifier.
+Visualize decision boundaries.
+Tune hyperparameters if necessary.
+Evaluate the classifier.
+b.6. Naive Bayes:
+
+Implement a Naive Bayes classifier.
+Visualize prior and posterior probabilities.
+Evaluate the classifier.
+3. Clustering Tasks
+a. Data Loading and Visualization
+Load the heart disease dataset.
+Visualize the dataset on a 2D grid with points using relevant features.
+b. Clustering Algorithms
+b.1. k-Means Clustering:
+
+Apply k-Means with a predefined number of clusters.
+Visualize clustering results.
+Explore metrics (silhouette score, etc.) to assess clustering quality.
+Iterate to find the optimal number of clusters using evaluation metrics.
+Measure computation time.
+Explain k-Means limitations with an example dataset.
+b.2. Agglomerative Hierarchical Clustering:
+
+Apply Agglomerative Hierarchical Clustering with a predefined number of clusters.
+Visualize dendrograms and clustering results.
+Use evaluation metrics to analyze clustering quality.
+Iterate to find the optimal number of clusters. Measure computation time.
+Explain the limitations of agglomerative clustering with an example dataset.
