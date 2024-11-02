@@ -1,9 +1,7 @@
-# Heart-Health
- Les_Maladies_Cardiaques
- I.
- Analyse de Clustering et de Classification sur le Jeu de Données des
- Maladies Cardiaques
- 1.Jeu de Données:
+
+# Les_Maladies_Cardiaques
+# I. Analyse de Clustering et de Classification sur le Jeu de Données des Maladies Cardiaques
+# 1.Jeu de Données:
  • JeudeDonnées:HeartAttack UCI
  • Description : Ce jeu de données comprend divers attributs liés aux maladies
  cardiaques. L’objectif est de prédire la présence ou l’absence de maladies cardiaques.
